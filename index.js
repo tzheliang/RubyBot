@@ -1,14 +1,15 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const config = require("./config.json");
 
 client.on("ready", () => {
   console.log("I am ready!");
 });
 
 client.on("message", message => {
-  if (message.content.startsWith("*test")) {
+  if (message.content.startsWith(config.prefix + "ping")) {
     message.channel.send("This bot is working yay");
   }
 });
 
-client.login("MjE1MTI4MTg1MjA4MTc2NjQx.DLfRRA.ynrWtLAlMu3cS8hfNYuCHO-VXcY");
+client.login(config.token);
