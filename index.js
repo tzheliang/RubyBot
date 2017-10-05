@@ -12,8 +12,4 @@ client.on("message", message => {
   }
 });
 
-<<<<<<< HEAD
 client.login(config.token);
-=======
-client.login("");
->>>>>>> 0c27061050efa45257ae754f42f2137a1475102b
