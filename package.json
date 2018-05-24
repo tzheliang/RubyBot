@@ -1,0 +1,30 @@
+{
+  "name": "rubybot",
+  "version": "1.0.0",
+  "description": "Discord bot built using JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzheliang/RubyBot.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Tan Zheliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzheliang/RubyBot/issues"
+  },
+  "homepage": "https://github.com/tzheliang/RubyBot#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5"
+  }
+}
