@@ -1,8 +1,8 @@
 module.exports = {
 	name: 'ping',
 	// For help command
-	description: 'For dynamics help in the future',
+	description: 'For dynamic help in the future',
 	execute(message, args) {
-		message.channel.send('Pong');
+		message.channel.send(`Pong! ${message.client.ping}ms`);
 	},
 };
